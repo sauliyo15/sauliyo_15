@@ -29,6 +29,11 @@ body {
   flex-direction: column;/*modificar esto a flex-direction:row para moviles*/
 }
 
+.cargando {
+  width: 15rem;
+  height: 10rem;
+}
+
 .centered-content {
   background-color: black;
   margin-top: 3.5rem;
@@ -82,6 +87,14 @@ body {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   width: 32rem;
+  opacity: 0; 
+  transform: translateY(-20px);
+  transition: opacity 3.0s ease, transform 3.0s ease; /* Aplica una transición suave */
+}
+
+.centered-content2.show {
+  opacity: 1; /* Hace visible el bloque */
+  transform: translateY(0); /* Anima la transición hacia abajo */
 }
 
 .centered-content2 a {
@@ -99,10 +112,12 @@ body {
   margin-bottom: 1rem;
   border-radius: 0.6rem;
   transition: background-color 0.4s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   
   &:hover {
     background-color: #14A1F0;
     border: 0.15rem solid white;
+    transform: scale(1.1);
   }
 }
 

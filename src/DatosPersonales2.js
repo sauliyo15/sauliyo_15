@@ -1,8 +1,16 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 export default function DatosPersonales2(props) {
+
+  const [mostrar, setMostrar] = useState(false);
+
+  useEffect(() => {
+    setMostrar(true);
+  }, []);
+
   return (
-    <div className="centered-content2">
+    <div className={`centered-content2 ${mostrar ? 'show' : ''}`}>
       <h2>{props.titulo}</h2>
       {props.datos.map((item) => (
         <div key={item.id}>

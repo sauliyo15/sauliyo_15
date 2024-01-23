@@ -3,8 +3,25 @@ import { datos } from "./constants/datos";
 import Header from "./Header";
 import DatosPersonales from "./DatosPersonales";
 import DatosPersonales2 from "./DatosPersonales2";
+import { useEffect, useState } from "react";
 
 function App() {
+
+  const [resultados, setResultados] = useState(null);
+  const [cargando, setCargando] = useState(true);
+
+  useEffect(() => {
+    
+    const fetchData = () => {
+      setTimeout(()=> {
+        setResultados(datos);
+        setCargando(false); 
+      }, 3000)             
+    };
+
+    fetchData();
+
+  }, []);
   
   return (
     <div>
@@ -16,16 +33,24 @@ function App() {
           descripcion={datos.personales.descripcion}
           imageUrl={datos.personales.urlImagen}
         />
-        <DatosPersonales2
+
+        {cargando && (
+          <img className="cargando" src="/imagenes/cargando.gif" alt="cargando"></img>
+        )}
+
+        {!cargando && (<DatosPersonales2
           titulo="Mis estudios realizados"
-          datos={datos.cursos}
-        />
-        <DatosPersonales2
+          datos={resultados.cursos}
+        />)}
+
+        {!cargando && (<DatosPersonales2
           titulo="Contacto y recursos disponibles"
-          datos={datos.contacto}
-        />
+          datos={resultados.contacto}
+        />)}
+        
+        
         <div className="centered-content3">
-          <img src="/imagenes/letra_s.png"></img>
+          <img src="/imagenes/letra_s.png" alt="Copyright"></img>
           <p>© 2024 sauliyo15.glitch.me by Saúl García v1.</p>
         </div>
       </div>
