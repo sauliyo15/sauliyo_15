@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;/*modificar esto a flex-direction:row para moviles*/
 }
 
 .centered-content {
@@ -33,7 +34,6 @@ body {
   margin-top: 3.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  background-color: black;
   width: 32rem;
 }
 
@@ -53,7 +53,7 @@ body {
   transition: transform 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.3); /* Ajusta el factor de escala según sea necesario */
+    transform: scale(1.3);
   }
 }
 
@@ -75,7 +75,89 @@ body {
   margin: 0;
 }
 
-.centered-content .info .nickname {
+
+.centered-content2 {
+  background-color: black;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 32rem;
+}
+
+.centered-content2 a {
+  text-decoration: none;
+}
+
+.centered-content2 .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: #1d1d1f;
+  border: 0.15rem solid #14A1F0;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+  transition: background-color 0.4s ease-in-out;
+  
+  &:hover {
+    background-color: #14A1F0;
+    border: 0.15rem solid white;
+  }
+}
+
+.centered-content2 img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+
+.centered-content2 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.centered-content2 h1 {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 0.2rem;
+}
+.centered-content2 p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+}
+
+
+.centered-content3 {
+  background-color: black;
+  margin-top: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.centered-content3 img {
+  border-radius: 50%;
+  border: 0.2rem solid #14A1F0;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.centered-content3 p {
+  font-size: 0.9rem;
+  margin: 0;
   color: #14A1F0;
 }
+
+
+
 
