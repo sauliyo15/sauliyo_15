@@ -8,6 +8,16 @@ export const datos = {
     },
     cursos: [
         {
+            nombre: "Grado en Sistemas de Información por la UAH",
+            descripcion: "Antigua Ingeniería Técnica en Informática de Gestión",
+            edicion: "2019 - 2023",
+            modalidad: "PRESENCIAL",
+            entidad: "Universidad de Alcalá",
+            duracion: "4 cursos",
+            urlImagen: "/imagenes/uah.svg",
+            enlace: "https://www.google.com"
+        },
+        {
             nombre: "Frontend",
             descripcion: "Desarrollo Frontend con HTML, CSS y JavaScript",
             edicion: "3ª Edición - 2023",
@@ -78,6 +88,52 @@ export const datos = {
             enlace: "https://www.google.com"
         }
     ],
+    proyectos: [
+        {
+            nombre: "Nos Vamos De Encierro",
+            descripcion: "Las aplicaciones de referencia de los festejos taurinos",
+            urlImagen: "/imagenes/nvde.jpg",
+            enlace: ""
+        },
+        {
+            nombre: "Mis DNIs",
+            descripcion: "Almacenamiento de datos personales",
+            urlImagen: "/imagenes/misdnis.webp",
+            enlace: ""
+        },
+        {
+            nombre: "Little Space 2",
+            descripcion: "Clásico juego de arcade del espacio",
+            urlImagen: "/imagenes/littlespace.webp",
+            enlace: ""
+        },
+        {
+            nombre: "El Tiempo",
+            descripcion: "Aplicación web de datos meteorológicos",
+            urlImagen: "/imagenes/eltiempo.png",
+            enlace: "https://eltiempo.glitch.me/"
+        },
+        {
+            nombre: "Juegos 2023",
+            descripcion: "Sitio web de juegos de preguntas y respuestas",
+            urlImagen: "/imagenes/juegos2023.png",
+            enlace: "https://sauliyo15juegosfullstack.glitch.me/"
+        },
+        {
+            nombre: "Buscador de Usuarios",
+            descripcion: "Web que simula un buscador de usuarios",
+            urlImagen: "/imagenes/buscadorusuarios.png",
+            enlace: "https://sauliyo15buscadorusuarios.glitch.me/"
+
+        },
+        {
+            nombre: "Todas mis aplicaciones móviles",
+            descripcion: "Accede a mi página de Google Play",
+            urlImagen: "/imagenes/android.png",
+            enlace: "https://play.google.com/store/apps/developer?id=Sauliyo15",
+            target_blank: true,
+        }
+    ],
     contacto: [
         {
             nombre: "Correo electrónico",
@@ -96,12 +152,14 @@ export const datos = {
             descripcion: "@sauliyo15",
             urlImagen: "/imagenes/instagram.png",
             enlace: "https://www.instagram.com/sauliyo15/",
+            target_blank: true,
         },
         {
             nombre: "GitHub",
             descripcion: "https://github.com/sauliyo15",
             urlImagen: "/imagenes/github.png",
-            enlace: "https://github.com/sauliyo15"
+            enlace: "https://github.com/sauliyo15",
+            target_blank: true,
         }
     ],
 }
