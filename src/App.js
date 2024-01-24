@@ -44,6 +44,11 @@ function App() {
         />)}
 
         {!cargando && (<DatosPersonales2
+          titulo="Algunos de mis proyectos y aplicaciones"
+          datos={resultados.proyectos}
+        />)}
+
+        {!cargando && (<DatosPersonales2
           titulo="Contacto y recursos disponibles"
           datos={resultados.contacto}
         />)}
