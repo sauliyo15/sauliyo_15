@@ -14,7 +14,7 @@ export default function DatosPersonales2(props) {
       <h2>{props.titulo}</h2>
       {props.datos.map((item) => (
         <div key={item.id}>
-          <a href={item.enlace}>
+          <a href={item.enlace} target={item.target_blank ? "_blank" : undefined}>
             <div className="row">
               <img src={item.urlImagen} alt="Centered" />
               <div className="info">
