@@ -1,8 +1,7 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-export default function DatosPersonales2(props) {
-
+export default function Datos(props) {
   const [mostrar, setMostrar] = useState(false);
 
   useEffect(() => {
@@ -10,11 +9,14 @@ export default function DatosPersonales2(props) {
   }, []);
 
   return (
-    <div className={`centered-content2 ${mostrar ? 'show' : ''}`}>
+    <div className={`centered-content2 ${mostrar ? "show" : ""}`}>
       <h2>{props.titulo}</h2>
       {props.datos.map((item) => (
         <div key={item.id}>
-          <a href={item.enlace} target={item.target_blank ? "_blank" : undefined}>
+          <Link
+            to={item.enlace}
+            target={item.target_blank ? "_blank" : undefined}
+          >
             <div className="row">
               <img src={item.urlImagen} alt="Centered" />
               <div className="info">
@@ -22,7 +24,7 @@ export default function DatosPersonales2(props) {
                 <p>{item.descripcion}</p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       ))}
     </div>

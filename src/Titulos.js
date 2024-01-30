@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DatosPersonales(props) {
+export default function Titulos(props) {
   return (
     <div className="centered-content">
       <div className="row">
