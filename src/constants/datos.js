@@ -30,7 +30,7 @@ export const datos = {
             duracion: "56 horas",
             urlImagen: "/imagenes/frontend.png",
             enlace: "/cursos/frontend",
-            urlDiploma: "/imagenes/diplomas/frontend.png",
+            urlDiploma: "/imagenes/diplomas/frontend.PNG",
             temario: [
                 "Introducción a HTML Y CSS, estructura, herencia",
                 "Menús, Estructura CSS, texto, fuentes, imágenes y multimedia",
@@ -74,7 +74,19 @@ export const datos = {
                     nombre: "PWA",
                     urlIcono: "/imagenes/tecnologias/pwa.png"
                 }
-            ]
+            ],
+            proyectos: {
+                introduccion: "Además de los ejercicios simples realizados durante los módulos del curso, como resultado y recopilación de todos los conocimientos adquiridos se encuentra el siguiente proyecto.",
+                listado: [
+                    {
+                        nombre: "Mis Películas Favoritas",
+                        descripcion: "Pequeña PWA (aplicación web progresiva) que permite el CRUD completo de películas, siguiendo el patrón de diseño MVC y utilizando como endpoint la API de la plataforma JsonStorage App. Desplegada en el servidor de desarrollo y hosting Glitch.",
+                        enlace: "https://sauliyo15peliculascompleto.glitch.me",
+                        urlImagen: "/imagenes/mispeliculasfavoritas.png",
+                        target_blank: true,
+                    }
+                ]
+            }
         },
         {
             id: "gitgithub",
@@ -87,7 +99,7 @@ export const datos = {
             duracion: "56 horas",
             urlImagen: "/imagenes/gitgithub.png",
             enlace: "/cursos/gitgithub",
-            urlDiploma: "/imagenes/diplomas/gitgithub.png",
+            urlDiploma: "/imagenes/diplomas/gitgithub.PNG",
             temario: [
                 "Introducción a UNIX y a su sistema de archivos",
                 "La interfaz de usuario de UNIX",
@@ -127,7 +139,7 @@ export const datos = {
             duracion: "56 horas",
             urlImagen: "/imagenes/backend.png",
             enlace: "/cursos/backend",
-            urlDiploma: "/imagenes/diplomas/backend.png",
+            urlDiploma: "/imagenes/diplomas/backend.PNG",
             temario: [
                 "Introducción a Node.js, módulos, paquetes npm, eventos y ficheros",
                 "Introducción a las BBDDS, SGBDR, ORM Sequelize, modelos y tablas",
@@ -159,7 +171,19 @@ export const datos = {
                     nombre: "EXPRESSJS",
                     urlIcono: "/imagenes/tecnologias/expressjs.png"
                 }
-            ]
+            ],
+            proyectos: {
+                introduccion: "Además de las diferentes prácticas realizadas durante los módulos del curso (cuyo código se encuentra disponible en GitHub), como resultado y recopilación de todos los conocimientos adquiridos se destaca el siguiente proyecto.",
+                listado: [
+                    {
+                        nombre: "Quizzes",
+                        descripcion: "Pequeña API que permite el CRUD completo de una aplicación de juegos. A través de sus MWs y controladores se llevan a cabo las acciones adecuadas con la Base de Datos en SQLIite, y devolviendo las respuestas en formato HTTP para permitir la interacción desde el navegador. Desplegada en el servidor de desarrollo y hosting Glitch.",
+                        enlace: "https://sauliyo15quizzescompleto.glitch.me",
+                        urlImagen: "/imagenes/quiz.jpg",
+                        target_blank: true,
+                    }
+                ]
+            }
         },
         {
             id: "fullstack",
@@ -172,7 +196,7 @@ export const datos = {
             duracion: "64 horas",
             urlImagen: "/imagenes/fullstack.jpg",
             enlace: "/cursos/fullstack",
-            urlDiploma: "/imagenes/diplomas/fullstack.png",
+            urlDiploma: "/imagenes/diplomas/fullstack.PNG",
             temario: [
                 "Introducción al Proyecto Quiz y a Express Generator",
                 "Añadir Home, Favicon, Author, Layout, Reponsive y Cookie Consent",
@@ -219,7 +243,7 @@ export const datos = {
             duracion: "60 horas",
             urlImagen: "/imagenes/basededatos.png",
             enlace: "/cursos/basesdedatos",
-            urlDiploma: "/imagenes/diplomas/basesdatos.png",
+            urlDiploma: "/imagenes/diplomas/basesdatos.PNG",
             temario: [
                 "Modelado Conceptual y Modelos de Datos Semánticos",
                 "Modelado de Datos Relacional y Bases de Datos Relacionales",
@@ -274,7 +298,7 @@ export const datos = {
             duracion: "75 horas",
             urlImagen: "/imagenes/react.png",
             enlace: "/cursos/react",
-            urlDiploma: "/imagenes/diplomas/react.png",
+            urlDiploma: "/imagenes/diplomas/react.PNG",
             temario:  [
                 "Bases del desarrollo de aplicaciones web",
                 "Conceptos principales de React y JSX",
@@ -300,6 +324,10 @@ export const datos = {
                     urlIcono: "/imagenes/tecnologias/javascript.webp"
                 },
                 {
+                    nombre: "BOOTSTRAP",
+                    urlIcono: "/imagenes/tecnologias/bootstrap.png"
+                },
+                {
                     nombre: "REACTNATIVE",
                     urlIcono: "/imagenes/tecnologias/reactnative.png"
                 },
@@ -316,7 +344,7 @@ export const datos = {
             duracion: "120 horas",
             urlImagen: "/imagenes/java.png",
             enlace: "/cursos/java",
-            urlDiploma: "/imagenes/diplomas/java.png",
+            urlDiploma: "/imagenes/diplomas/java.PNG",
             temario: [
                 "Programación Orientada a Objetos (POO)",
                 "Aplicaciones Web con Java",
