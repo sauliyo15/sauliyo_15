@@ -11,6 +11,7 @@ export default function Datos(props) {
   return (
     <div className={`centered-content2 ${mostrar ? "show" : ""}`}>
       <h2>{props.titulo}</h2>
+      {props.intro && (<p className="intro">{props.intro}</p>)}
       {props.datos.map((item) => (
         <div key={item.id}>
           <Link
