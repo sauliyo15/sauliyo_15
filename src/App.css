@@ -101,6 +101,28 @@ body {
   text-decoration: none;
 }
 
+.centered-content2 .intro {
+  margin-bottom: 1.5rem;
+  color: #9f9999cc;
+}
+
+.centered-content2 .row-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-content2 .icono {
+  border-radius: 50%;
+  margin: 0.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.9);
+  }
+}
+
 .centered-content2 .row {
   display: flex;
   flex-direction: row;
@@ -119,6 +141,33 @@ body {
     border: 0.15rem solid white;
     transform: scale(1.1);
   }
+}
+
+.centered-content2 .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  background-color: #1d1d1f;
+  border: 0.15rem solid #14A1F0;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+  transition: background-color 0.4s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  
+  &:hover {
+    background-color: #14A1F0;
+    border: 0.15rem solid white;
+    transform: scale(1.1);
+  }
+}
+
+.centered-content2 .diploma {
+  margin-left: 1rem;
+  width: 9rem;
+  height: 7rem;
+  border-radius: 0.2rem;
 }
 
 .centered-content2 img {
@@ -146,6 +195,7 @@ body {
 }
 
 
+/*Pie de página*/
 .centered-content3 {
   background-color: black;
   margin-top: 0;
