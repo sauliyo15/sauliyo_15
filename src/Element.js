@@ -55,6 +55,13 @@ export default function Element(props) {
             </div>
           </div>
 
+          {objetoEncontrado.cursos && (
+            <Datos
+            titulo="Cursos del grado"
+            datos={objetoEncontrado.cursos}
+          />
+          )}
+
           {objetoEncontrado.proyectos && (
             <Datos titulo="Proyectos del curso" intro={objetoEncontrado.proyectos.introduccion} datos={objetoEncontrado.proyectos.listado}/>
           )}
