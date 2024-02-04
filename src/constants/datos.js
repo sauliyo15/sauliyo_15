@@ -43,6 +43,43 @@ export const datos = {
             ]
         },
         {
+            id: "android",
+            nombre: "Android",
+            descripcion: "Programación de aplicaciones móviles",
+            descripcionLarga: "La programación de aplicaciones para Android implica utilizar Java o Kotlin con Android Studio, diseñar interfaces mediante XML y emplear las APIs de Android. Después de pruebas en emuladores o dispositivos reales, las aplicaciones se distribuyen en la tienda Google Play.",
+            edicion: "2013",
+            modalidad: "ONLINE",
+            entidad: "Universitat Politècnica de València",
+            duracion: "120 horas",
+            urlImagen: "/imagenes/android.png",
+            enlace: "/cursos/android",
+            urlDiploma: "/imagenes/diplomas/android.PNG",
+            temario: [
+                "tema 1",
+                "tema 2",
+                "tema 3",
+                "tema 4"
+            ],
+            tecnologias: [
+                {
+                    nombre: "JAVA",
+                    urlIcono: "/imagenes/tecnologias/java.png"
+                },
+                {
+                    nombre: "PLAYSTORE",
+                    urlIcono: "/imagenes/playstore.png"
+                },
+                {
+                    nombre: "ANDROIDSTUDIO",
+                    urlIcono: "/imagenes/tecnologias/androidstudio.png"
+                },
+                {
+                    nombre: "SQLITE",
+                    urlIcono: "/imagenes/tecnologias/sqlite.png"
+                },
+            ]
+        },
+        {
             id: "frontend",
             nombre: "Frontend",
             descripcion: "Desarrollo Frontend con HTML, CSS y JavaScript",
@@ -420,6 +457,12 @@ export const datos = {
                     urlIcono: "/imagenes/tecnologias/hibernate.png"
                 },
             ]
+        },
+        {
+            id: "flutter",
+            nombre: "Flutter",
+            descripcion: "Actualmente aprendizaje autónomo con resursos de la red",
+            urlImagen: "/imagenes/flutter.png",
         }
     ],
     proyectos: [
@@ -477,7 +520,7 @@ export const datos = {
             nombre: "Todas mis aplicaciones móviles",
             descripcion: "Accede a mi página de Google Play",
             descripcionLarga: "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
-            urlImagen: "/imagenes/android.png",
+            urlImagen: "/imagenes/playstore.png",
             enlace: "https://play.google.com/store/apps/developer?id=Sauliyo15",
             target_blank: true,
         }
