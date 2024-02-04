@@ -3,7 +3,7 @@ export const datos = {
         nombre: "Saúl",
         apellidos: "García Calvo",
         nickname: "@sauliyo15",
-        descripcion: "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
+        descripcion: "Soy un apasionado de la programación, con un enfoque especial en el desarrollo de aplicaciones móviles. Disfruto trabajando con bases de datos para garantizar un rendimiento optimo en mis proyectos. Siempre estoy buscando oportunidades para aprender y crecer en este emocionante campo de la tecnología.",
         urlImagen: "/imagenes/foto_personal.jpg"
     },
     cursos: [
@@ -11,13 +11,36 @@ export const datos = {
             id: "gsi",
             nombre: "Grado en Sistemas de Información",
             descripcion: "Antigua Ingeniería Técnica en Informática de Gestión",
-            descripcionLarga: "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
-            edicion: "2019 - 2023",
+            descripcionLarga: "En el año 2008, continue mi travesía académica con la ya extinta Ingeniería Técnica en Informática de Gestión. Con la irrupción del Plan Bolonia en 2009, la universidad nos instó a realizar la transición al Grado en Sistemas de Información, un proceso que, aunque demandó un esfuerzo intenso y personal significativo, resultó en logros académicos satisfactorios. Sin embargo, enfrenté la complejidad de ser parte de la primera promoción de este nuevo grado, experimentando desafíos inherentes a la novedad de los contenidos y la estructura del programa, lo que añadió un matiz de dificultad a mi experiencia educativa.",
+            edicion: "2009 - 2013",
             modalidad: "PRESENCIAL",
             entidad: "Universidad de Alcalá de Henares",
             duracion: "4 cursos",
             urlImagen: "/imagenes/uah.svg",
-            enlace: "/cursos/gsi"
+            enlace: "/cursos/gsi",
+            urlDiploma: "/imagenes/diplomas/gsi.PNG",
+            cursos: [
+                {
+                    nombre: "Primer curso",
+                    descripcion: "Fundamentos de programación, Gestión de equipos y personas, Programación, Sistemas operativos, Estadística, etc",
+                    urlImagen: "/imagenes/numeros/numero-1.png"
+                },
+                {
+                    nombre: "Segundo curso",
+                    descripcion: "Bases de datos, Estructuras de datos, Ingeniería del software, Fundamentos de los sistemas de información, Redes, etc",
+                    urlImagen: "/imagenes/numeros/numero-2.png"
+                },
+                {
+                    nombre: "Tercer curso",
+                    descripcion: "Bases de datos avanzadas, Desarrollo con tecnologías emergentes, Ingeniería del software avanzada, Organización de la información y proyectos, etc",
+                    urlImagen: "/imagenes/numeros/numero-3.png"
+                },
+                {
+                    nombre: "Cuarto y último curso",
+                    descripcion: "Arquitectura y diseño de sistemas web, Computación ubicua, Seguridad en sistemas distribuidos, Fundamentos del comercio electónico, etc",
+                    urlImagen: "/imagenes/numeros/numero-4.png"
+                }
+            ]
         },
         {
             id: "frontend",
@@ -230,7 +253,18 @@ export const datos = {
                     nombre: "HTTPS",
                     urlIcono: "/imagenes/tecnologias/https.png"
                 }
-            ]
+            ],
+            proyectos: {
+                listado: [
+                    {
+                        nombre: "The Quiz Site",
+                        descripcion: "Pequeño sitio Fullstack construido con express-generator en el que a lo largo de este curso se van incorporando diferentes componentes como la paginación, autenticación y roles de usuarios, etc. Desplegada en el servidor de desarrollo y hosting Glitch.",
+                        enlace: "https://sauliyo15quizfullstack.glitch.me/",
+                        urlImagen: "/imagenes/quiz.jpg",
+                        target_blank: true,
+                    }
+                ]
+            }
         },
         {
             id: "basesdedatos",
@@ -285,7 +319,19 @@ export const datos = {
                     nombre: "MONGODB",
                     urlIcono: "/imagenes/tecnologias/mongodb.png"
                 },
-            ]
+            ],
+            proyectos: {
+                introduccion: "Debido a la necesidad de instalaciones locales de MySQL y MongoDB, los proyectos de este curso no son visualizables directamente. Puedes acceder al código en los repositorios de GitHub proporcionado a continuación.",
+                listado: [
+                    {
+                        nombre: "Prácticas Bases de Datos",
+                        descripcion: "La primera práctica involucra el uso de SQL para manipular estructuras de datos. En la segunda, una aplicación web interactúa con la base de datos MySQL mediante el ORM de Sequelize. La tercera permite realizar operaciones CRUD en una base de datos MongoDB a través del ODM de Mongoose.",
+                        enlace: "https://github.com/stars/sauliyo15/lists/curso-bases-de-datos-miriadax",
+                        urlImagen: "/imagenes/basededatos.png",
+                        target_blank: true,
+                    }
+                ]
+            }
         },
         {
             id: "react",
