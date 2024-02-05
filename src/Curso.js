@@ -5,7 +5,7 @@ import Titulos from "./Titulos";
 import Iconos from "./Iconos";
 import Datos from "./Datos";
 
-export default function Element(props) {
+export default function Curso(props) {
   let { id } = useParams();
   const objetoEncontrado = props.datos.find((objeto) => objeto.id === id);
   const [mostrar, setMostrar] = useState(false);
