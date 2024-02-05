@@ -2,7 +2,8 @@ import "./App.css";
 import { datos } from "./constants/datos";
 import Header from "./Header";
 import Footer from "./Footer";
-import Element from "./Element";
+import Curso from "./Curso";
+import Proyecto from "./Proyecto";
 import NotFound from "./NotFound";
 import Titulos from "./Titulos";
 import Datos from "./Datos";
@@ -74,9 +75,9 @@ function App() {
           }
         />
         
-        <Route path="/proyectos/:id" element={<Element datos={datos.proyectos}/>}
+        <Route path="/proyectos/:id" element={<Proyecto datos={datos.proyectos}/>}
         />
-        <Route path="/cursos/:id" element={<Element datos={datos.cursos}/>}
+        <Route path="/cursos/:id" element={<Curso datos={datos.cursos}/>}
         />
         <Route path="*" element={<NotFound/>}/>
       </Routes>
