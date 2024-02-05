@@ -15,6 +15,7 @@ function App() {
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchData = () => {
       setTimeout(() => {
         setResultados(datos);

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Footer from "./Footer";
 import Titulos from "./Titulos";
 import Iconos from "./Iconos";
@@ -12,7 +12,9 @@ export default function Proyecto(props) {
   const [mostrar, setMostrar] = useState(false);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setMostrar(true);
+
   }, []);
 
   return (

@@ -11,6 +11,7 @@ export default function Curso(props) {
   const [mostrar, setMostrar] = useState(false);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setMostrar(true);
   }, []);
 
