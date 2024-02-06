@@ -232,6 +232,10 @@
     color: #14a1f0;
   }
 
+  .centered-content3 .link {
+    text-decoration: none;
+  }
+
   .puntuacion-container {
     display: flex;
     justify-content: center;

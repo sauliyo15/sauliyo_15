@@ -234,6 +234,9 @@ body {
   color: #14A1F0;
 }
 
+.centered-content3 .link {
+  text-decoration: none;
+}
 
 .puntuacion-container {
   display: flex;
