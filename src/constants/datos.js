@@ -525,6 +525,8 @@ export const datos = {
       nombre: "Flutter",
       descripcion: "Actualmente aprendizaje autónomo con resursos de la red",
       urlImagen: "/imagenes/flutter.png",
+      enlace: "https://github.com/stars/sauliyo15/lists/flutter",
+      target_blank: true,
     },
   ],
   proyectos: [
@@ -562,7 +564,6 @@ export const datos = {
           nombre: "POSTGRESQL",
           urlIcono: "/imagenes/tecnologias/postgresql.png",
         },
-
         {
           nombre: "AWS",
           urlIcono: "/imagenes/tecnologias/aws.png",
@@ -585,7 +586,6 @@ export const datos = {
         },
       ],
       componentes: {
-        introduccion: "bla bla bla bla",
         listado: [
           {
             nombre: "Nos Vamos De Encierro",
@@ -606,7 +606,7 @@ export const datos = {
           {
             nombre: "API",
             descripcion:
-              "bla bla bla",
+              "Codificada en Express procesa solicitudes de datos para las aplicaciones, con una interfaz web visible en la ruta principal. Desplegada en Glitch para eficiencia y confiabilidad.",
             enlace: "https://nosvamosdeencierro.glitch.me/",
             urlImagen: "/imagenes/tecnologias/api.png",
             target_blank: true,
@@ -614,10 +614,18 @@ export const datos = {
           {
             nombre: "Base de Datos",
             descripcion:
-              "bla bla bla",
-            enlace: "",
+              "La base de datos, alojada en AWS, utiliza PostgreSQL, con varias tablas para organizar eficientemente los datos cifrados, garantizando la seguridad y confidencialidad.",
+            enlace: "https://aws.amazon.com/es/rds/",
             urlImagen: "/imagenes/tecnologias/postgresql.png",
-            target_blank: false,
+            target_blank: true,
+          },
+          {
+            nombre: "Aplicación de Escritorio",
+            descripcion:
+              "Una aplicación de escritorio en Java centraliza la gestión de toda la información, ofreciendo una solución eficiente y versátil.",
+            enlace: "/imagenes/nvde_escritorio.PNG",
+            urlImagen: "/imagenes/pc.png",
+            target_blank: true,
           },
           {
             nombre: "Redes Sociales",
