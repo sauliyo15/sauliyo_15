@@ -12,6 +12,10 @@
     font-family: "Helvetica", sans-serif;
   }
 
+  .header .link {
+    text-decoration: none;
+  }
+
   .header .nombre {
     color: #14a1f0;
     margin-left: 0.7rem;
