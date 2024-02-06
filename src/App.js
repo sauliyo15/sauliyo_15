@@ -1,4 +1,5 @@
 import "./App.css";
+import "./App_moviles.css";
 import { datos } from "./constants/datos";
 import Header from "./Header";
 import Footer from "./Footer";
