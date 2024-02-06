@@ -630,7 +630,7 @@ export const datos = {
           {
             nombre: "Redes Sociales",
             descripcion:
-              "Esenciales para promocionar apps y comunicar novedades, las redes sociales son fundamentales para mantener a la audiencia informada sobre nuevas características y contenido.",
+              "Esenciales para promocionar apps y comunicar novedades. Las redes sociales son fundamentales para mantener a la audiencia informada sobre nuevas características y contenido.",
             enlace: "https://www.instagram.com/nosvamosdeencierro/",
             urlImagen: "/imagenes/instagram.png",
             target_blank: true,
@@ -643,18 +643,65 @@ export const datos = {
       nombre: "Mis DNIs",
       descripcion: "Almacenamiento de datos personales",
       descripcionLarga:
-        "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
+        "Una idea concebida con el propósito de desarrollar rápidamente algo simple y funcional. Esta aplicación tiene dos objetivos claros y logrados: proporcionar un bloc de notas simple para almacenar diversos datos y tener un nombre atractivo que genere una gran cantidad de descargas.",
       urlImagen: "/imagenes/misdnis.webp",
       enlace: "/proyectos/misdnis",
-    },
-    {
-      id: "littlespace2",
-      nombre: "Little Space 2",
-      descripcion: "Clásico juego de arcade del espacio",
-      descripcionLarga:
-        "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
-      urlImagen: "/imagenes/littlespace.webp",
-      enlace: "/proyectos/littlespace2",
+      puntuaciones: [
+        {
+          nombre: "Puntuacion Play Store",
+          valor: "3.3",
+          urlIcono: "/imagenes/star.png"
+        },
+        {
+          nombre: "Descargas",
+          valor: "50K+ Descargas",
+          urlIcono: "/imagenes/download.png"
+        }
+      ],
+      tecnologias: [
+        {
+          nombre: "ANDROIDSTUDIO",
+          urlIcono: "/imagenes/tecnologias/androidstudio.png"
+        },
+        {
+          nombre: "JAVA",
+          urlIcono: "/imagenes/tecnologias/java.png"
+        },
+        {
+          nombre: "PLAYSTORE",
+          urlIcono: "/imagenes/playstore.png"
+        },
+        {
+          nombre: "ADMOB",
+          urlIcono: "/imagenes/tecnologias/admob.png"
+        },
+        {
+          nombre: "FIREBASE",
+          urlIcono: "/imagenes/tecnologias/firebase.webp"
+        },
+        {
+          nombre: "ONESIGNAL",
+          urlIcono: "/imagenes/tecnologias/onesignal.png",
+        }
+      ],
+      componentes: {
+        listado: [
+          {
+            nombre: "Aplicación Android",
+            descripcion: "Desarrollada en Java y se monetiza con Admob. Integra varios SDKs, incluyendo OneSignal para el envío de notificaciones a los usuarios.",
+            enlace: "https://play.google.com/store/apps/details?id=saul.dni&hl=es&gl=US",
+            urlImagen: "/imagenes/android.png",
+            target_blank: true
+          },
+          {
+            nombre: "Base de Datos",
+            descripcion: "Se utiliza SQLite se utiliza y almacena internamente en el dispositivo móvil para gestionar y organizar datos de la aplicación de manera eficiente y localizada.",
+            enlace: "",
+            urlImagen: "/imagenes/tecnologias/sqlite.png",
+            target_blank: true
+          }
+        ]
+      }
     },
     {
       id: "eltiempo",
