@@ -91,6 +91,20 @@ export const datos = {
           urlIcono: "/imagenes/tecnologias/sqlite.png",
         },
       ],
+      proyectos: {
+        introduccion:
+          "El objetivo principal del curso es familiarizarse con las diversas opciones que ofrece Android y aplicar algunas de ellas en la creación de una aplicación funcional o juego, culminando con su publicación en la tienda de aplicaciones.",
+        listado: [
+          {
+            nombre: "Little Space 2",
+            descripcion:
+              "Un juego clásico de arcade ambientado en el espacio, donde controlas una nave. Incluye la función de almacenamiento local para mostrar las diez mejores puntuaciones.",
+            enlace: "https://play.google.com/store/apps/details?id=saul.littlespace2&hl=es_419&gl=US",
+            urlImagen: "/imagenes/littlespace.webp",
+            target_blank: true,
+          },
+        ],
+      },
     },
     {
       id: "frontend",
@@ -634,6 +648,14 @@ export const datos = {
             enlace: "https://www.instagram.com/nosvamosdeencierro/",
             urlImagen: "/imagenes/instagram.png",
             target_blank: true,
+          },
+          {
+            nombre: "Próximos pasos",
+            descripcion:
+              "Traslado de la API al hosting de Vercel con el objetivo de reducir los tiempos de carga, junto con el desarrollo de la aplicación principal para ofrecer su disponibilidad en la plataforma iPhone.",
+            enlace: "https://vercel.com/",
+            urlImagen: "/imagenes/proximo.png",
+            target_blank: true,
           }
         ],
       },
@@ -706,20 +728,18 @@ export const datos = {
     {
       id: "eltiempo",
       nombre: "El Tiempo",
-      descripcion: "Aplicación web de datos meteorológicos",
-      descripcionLarga:
-        "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
+      descripcion: "Codificada en React y Bootstrap, utilizando datos de OpenWeatherMap para pronósticos meteorológicos",
       urlImagen: "/imagenes/eltiempo.png",
       enlace: "https://eltiempo.glitch.me/",
+      target_blank: true
     },
     {
       id: "juegos2023",
       nombre: "Juegos 2023",
-      descripcion: "Sitio web de juegos de preguntas y respuestas",
-      descripcionLarga:
-        "Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.",
+      descripcion: "Versión mejorada del proyecto final del curso Fullstack, con imágenes y funciones adicionales.",
       urlImagen: "/imagenes/juegos2023.png",
       enlace: "https://sauliyo15juegosfullstack.glitch.me/",
+      target_blank: true
     },
     {
       id: "paginagoogleplay",
