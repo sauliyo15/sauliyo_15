@@ -225,12 +225,21 @@
     height: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.3);
+    }
   }
 
   .centered-content3 p {
     font-size: 0.9rem;
     margin: 0;
     color: #14a1f0;
+
+    &:hover {
+      color: white;
+    }
   }
 
   .centered-content3 .link {

@@ -85,6 +85,30 @@ export default function Curso(props) {
               ))}
             </div>
           )}
+
+          {objetoEncontrado.tfg && (
+            <>
+              <Datos
+              titulo={objetoEncontrado.tfg[0].titulo}
+              datos={objetoEncontrado.tfg}
+              />
+              <div className={`centered-content2 ${mostrar ? "show" : ""}`}>
+                <Iconos tecnologias={objetoEncontrado.tfg[0].tecnologias}/>
+              </div>
+            </>            
+          )}
+
+          {objetoEncontrado.practicas && (
+            <>
+              <Datos
+              titulo={objetoEncontrado.practicas[0].titulo}
+              datos={objetoEncontrado.practicas}
+              />
+              <div className={`centered-content2 ${mostrar ? "show" : ""}`}>
+                <Iconos tecnologias={objetoEncontrado.practicas[0].tecnologias}/>
+              </div>
+            </>            
+          )}
           <Footer />
         </div>
       ) : (

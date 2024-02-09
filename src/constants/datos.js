@@ -47,6 +47,66 @@ export const datos = {
           urlImagen: "/imagenes/numeros/numero-4.png",
         },
       ],
+      tfg: [
+        {
+          titulo: "Trabajo Fin de Grado",
+          nombre: "Sistema de Gestión de Pedidos",
+          descripcion: "Desarrollo de una aplicación de escritorio en Java para la gestión integral de pedidos en una empresa de transporte, con una base de datos PostgreSQL integrada. Además, se complementa con una aplicación Android diseñada para que los repartidores accedan y completen sus asignaciones de entregas de manera eficaz y organizada.",
+          urlImagen: "/imagenes/tfg.png",
+          tecnologias: [
+            {
+              nombre: "ANDROIDSTUDIO",
+              urlIcono: "/imagenes/tecnologias/androidstudio.png",
+            },
+            {
+              nombre: "JAVA",
+              urlIcono: "/imagenes/tecnologias/java.png",
+            },
+            {
+              nombre: "POSTGRESQL",
+              urlIcono: "/imagenes/tecnologias/postgresql.png"
+            },
+            {
+              nombre: "SQLITE",
+              urlIcono: "/imagenes/tecnologias/sqlite.png",
+            },
+            {
+              nombre: "ANDROID",
+              urlIcono: "/imagenes/android.png"
+            }
+          ],
+        }
+      ],
+      practicas: [
+        {
+          titulo: "Prácticas en Empresa",
+          nombre: "Mercedes Benz España S.A.",
+          descripcion: "Desarrollo de un proyecto para el tratamiento automático de datos y la visualización de resultados, basado en la codificación de macros en Visual Basic for Applications (VBA) en Microsoft Access y Excel. El sistema recopila datos de diversas fuentes, filtra los datos no válidos y brinda al usuario la opción de visualizarlos en informes y/o gráficos.",
+          urlImagen: "/imagenes/mercedesbenz.png",
+          tecnologias: [
+            {
+              nombre: "VBA",
+              urlIcono: "/imagenes/tecnologias/vba.png",
+            },
+            {
+              nombre: "ACCESS",
+              urlIcono: "/imagenes/tecnologias/access.png",
+            },
+            {
+              nombre: "EXCEL",
+              urlIcono: "/imagenes/tecnologias/excel.png",
+            },
+            {
+              nombre: "SQLSEVER",
+              urlIcono: "/imagenes/tecnologias/sqlserver.png",
+            },
+            {
+              nombre: "BAT",
+              urlIcono: "/imagenes/tecnologias/bat.png",
+            },
+          ],
+        }
+      ]
     },
     {
       id: "android",
@@ -767,10 +827,10 @@ export const datos = {
       target_blank: true,
     },
     {
-      nombre: "Instagram",
-      descripcion: "@sauliyo15",
-      urlImagen: "/imagenes/instagram.png",
-      enlace: "https://www.instagram.com/sauliyo15/",
+      nombre: "Curriculum Vitae",
+      descripcion: "Más información sobre mí",
+      urlImagen: "/imagenes/curriculum.jpg",
+      enlace: "/CVitae.pdf",
       target_blank: true,
     },
     {
@@ -778,6 +838,13 @@ export const datos = {
       descripcion: "https://github.com/sauliyo15",
       urlImagen: "/imagenes/github.png",
       enlace: "https://github.com/sauliyo15",
+      target_blank: true,
+    },
+    {
+      nombre: "Instagram",
+      descripcion: "@sauliyo15",
+      urlImagen: "/imagenes/instagram.png",
+      enlace: "https://www.instagram.com/sauliyo15/",
       target_blank: true,
     },
   ],
