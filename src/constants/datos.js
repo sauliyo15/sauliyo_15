@@ -4,7 +4,7 @@ export const datos = {
     apellidos: "García Calvo",
     nickname: "@sauliyo15",
     descripcion:
-      "Soy un apasionado de la programación, con un enfoque especial en el desarrollo de aplicaciones móviles. Disfruto trabajando con bases de datos para garantizar un rendimiento optimo en mis proyectos. Siempre estoy buscando oportunidades para aprender y crecer en este emocionante campo de la tecnología.",
+      "Soy un apasionado de la programación, con un enfoque especial en el desarrollo de aplicaciones móviles. Disfruto trabajando con bases de datos para garantizar un rendimiento óptimo en mis proyectos. Siempre estoy buscando oportunidades para aprender y crecer en este emocionante campo de la tecnología.",
     urlImagen: "/imagenes/foto_personal.jpg",
   },
   cursos: [
@@ -830,7 +830,7 @@ export const datos = {
       nombre: "Curriculum Vitae",
       descripcion: "Más información sobre mí",
       urlImagen: "/imagenes/curriculum.jpg",
-      enlace: "/cv_europeo.pdf",
+      enlace: "/cveuropeo.pdf",
       target_blank: true,
     },
     {
