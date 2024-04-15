@@ -830,7 +830,7 @@ export const datos = {
       nombre: "Curriculum Vitae",
       descripcion: "Más información sobre mí",
       urlImagen: "/imagenes/curriculum.jpg",
-      enlace: "/curriculum.pdf",
+      enlace: "/cv_europeo.pdf",
       target_blank: true,
     },
     {
