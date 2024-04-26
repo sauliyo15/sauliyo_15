@@ -841,6 +841,13 @@ export const datos = {
       target_blank: true,
     },
     {
+      nombre: "LinkedIn",
+      descripcion: "https://www.linkedin.com/in/sauliyo15/",
+      urlImagen: "/imagenes/linkedin.webp",
+      enlace: "https://www.linkedin.com/in/sauliyo15/",
+      target_blank: true,
+    },
+    {
       nombre: "Instagram",
       descripcion: "@sauliyo15",
       urlImagen: "/imagenes/instagram.png",
