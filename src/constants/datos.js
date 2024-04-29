@@ -647,6 +647,10 @@ export const datos = {
           urlIcono: "/imagenes/tecnologias/admob.png",
         },
         {
+          nombre: "APPLE",
+          urlIcono: "/imagenes/tecnologias/apple.png",
+        },
+        {
           nombre: "FIREBASE",
           urlIcono: "/imagenes/tecnologias/firebase.webp",
         },
@@ -678,9 +682,17 @@ export const datos = {
             target_blank: true,
           },
           {
+            nombre: "Version Premium (Android) y app para iOS",
+            descripcion:
+              "Desarrollada en JavaScript con React Native, esta versión de pago ofrece funciones exclusivas premium para una experiencia de usuario mejorada en ambas plataformas.",
+            enlace: "https://apps.apple.com/us/app/nos-vamos-de-encierro/id6496282440",
+            urlImagen: "/imagenes/premium.png",
+            target_blank: true,
+          },
+          {
             nombre: "API",
             descripcion:
-              "Codificada en Express procesa solicitudes de datos para las aplicaciones, con una interfaz web visible en la ruta principal. Desplegada en Glitch para eficiencia y confiabilidad.",
+              "Codificada en Express procesa solicitudes de datos para las aplicaciones. Desplegada en Vercel para eficiencia y confiabilidad.",
             enlace: "https://nosvamosdeencierro.glitch.me/",
             urlImagen: "/imagenes/tecnologias/api.png",
             target_blank: true,
@@ -709,14 +721,6 @@ export const datos = {
             urlImagen: "/imagenes/instagram.png",
             target_blank: true,
           },
-          {
-            nombre: "Próximos pasos",
-            descripcion:
-              "Traslado de la API al hosting de Vercel con el objetivo de reducir los tiempos de carga, junto con el desarrollo de la aplicación principal para ofrecer su disponibilidad en la plataforma iPhone.",
-            enlace: "https://vercel.com/",
-            urlImagen: "/imagenes/proximo.png",
-            target_blank: true,
-          }
         ],
       },
     },
