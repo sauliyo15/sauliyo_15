@@ -12,7 +12,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  width: 100%;
   animation: enhance-header linear both;
   animation-timeline: scroll(root);
   animation-range: 0 150px;
