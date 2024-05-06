@@ -10,6 +10,20 @@
     text-align: start;
     font-size: 1.5rem;
     font-family: "Helvetica", sans-serif;
+    position: sticky;
+    width: auto;
+    top: 0;
+    z-index: 10;
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 150px;
+  }
+
+  @keyframes enhance-header {
+    to {
+        background: rgba(29, 29, 31, 0.4);
+        backdrop-filter: blur(5px);
+    }
   }
 
   .header .link {
@@ -19,6 +33,7 @@
   .header .nombre {
     color: #14a1f0;
     margin-left: 0.7rem;
+    text-decoration: none;
   }
 
   .header .numero {
