@@ -721,6 +721,14 @@ export const datos = {
             urlImagen: "/imagenes/instagram.png",
             target_blank: true,
           },
+          {
+            nombre: "Próximos pasos",
+            descripcion:
+              "Análisis y traslado del sistema de alojamiento de la base de datos hacia la plataforma de hospedaje ofrecida por Heroku.",
+            enlace: "https://devcenter.heroku.com/articles/heroku-postgresql",
+            urlImagen: "/imagenes/proximo.png",
+            target_blank: true,
+          },
         ],
       },
     },
