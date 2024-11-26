@@ -597,10 +597,49 @@ export const datos = {
     {
       id: "flutter",
       nombre: "Flutter",
-      descripcion: "Actualmente aprendizaje autónomo con resursos de la red",
+      descripcion: "Aprendizaje autónomo con resursos de la red",
       urlImagen: "/imagenes/flutter.png",
       enlace: "https://github.com/stars/sauliyo15/lists/flutter",
       target_blank: true,
+    },
+    {
+      id: "python",
+      nombre: "Python",
+      descripcion: "Programación en Python para la arquitectura y la ingeniería",
+      descripcionLarga:
+        "En el desarrollo web con Python, los desarrolladores utilizan este lenguaje de programación para construir aplicaciones web robustas y escalables. Python es conocido por su sintaxis sencilla y legibilidad, lo que facilita el desarrollo rápido. Frameworks como Django y Flask permiten crear sitios web dinámicos y de alto rendimiento, gestionando eficientemente la lógica de negocio y la interacción con bases de datos, mientras que la comunidad activa de Python ofrece un amplio soporte y recursos.",
+      edicion: "1ª Edición - 2023",
+      modalidad: "ONLINE",
+      entidad: "Universidad Politécnica de Madrid",
+      duracion: "75 horas",
+      urlImagen: "/imagenes/python.png",
+      enlace: "/cursos/python",
+      urlDiploma: "/imagenes/diplomas/python.PNG",
+      temario: [
+        "Introducción",
+        "Variables y expresiones",
+        "Control de flujo",
+        "Entrada y salida de datos",
+        "Funciones",
+        "Programación orientada a objetos",
+        "Módulos, aspectos, y bibliotecas",
+        "Documentación y pruebas",
+        "Herramientas de Python para la vida profesional y acádemica"
+      ],
+      tecnologias: [
+        {
+          nombre: "PYTHON",
+          urlIcono: "/imagenes/tecnologias/python.png",
+        },
+        {
+          nombre: "FASTAPI",
+          urlIcono: "/imagenes/tecnologias/fastapi.png",
+        },
+        {
+          nombre: "UVICORN",
+          urlIcono: "/imagenes/tecnologias/uvicorn.png",
+        },
+      ],
     },
   ],
   proyectos: [
