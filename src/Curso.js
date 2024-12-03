@@ -58,7 +58,7 @@ export default function Curso(props) {
 
           {objetoEncontrado.cursos && (
             <Datos
-            titulo="Cursos del grado"
+            titulo="Cursos"
             datos={objetoEncontrado.cursos}
           />
           )}

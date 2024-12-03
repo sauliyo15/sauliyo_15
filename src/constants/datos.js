@@ -109,6 +109,100 @@ export const datos = {
       ]
     },
     {
+      id: "bootcampjava",
+      nombre: "Bootcamp en Backend con Java",
+      descripcion: "Desarrollo Backend con Java",
+      descripcionLarga:
+        "Intenso bootcamp en desarrollo backend con Java, enfocado en la creación de aplicaciones robustas y escalables mediante Spring Boot, con énfasis en el diseño de APIs REST, integración de bases de datos y buenas prácticas en programación.",
+      edicion: "2024",
+      modalidad: "ONLINE",
+      entidad: "Qualentum - UNIR (PROEDUCA)",
+      duracion: "Junio - Diciembre",
+      urlImagen: "/imagenes/qualentum.jpg",
+      enlace: "/cursos/bootcampjava",
+      urlDiploma: "/imagenes/diplomas/nodisponible.jpg",
+      cursos: [
+        {
+          nombre: "Sprint 0. Módulo de iniciación de Back",
+          descripcion:
+            "Introducción en lenguajes de programación: JavaScript, Python, Java y PHP.",
+          urlImagen: "/imagenes/numeros/numero-0.png",
+        },
+        {
+          nombre: "Sprint 1. Core Desarrollo",
+          descripcion:
+            "La metodología Agile. Gestión de repositorios Git/GitHub. Servidores, Kubernetes y patrones MVC. Patrones de diseño y APIs. CI/CD.",
+          urlImagen: "/imagenes/numeros/numero-1.png",
+        },
+        {
+          nombre: "Sprint 2. Backend",
+          descripcion:
+            "Docker. Bases de datos. Sistemas de caché. Microservicios. Sistemas de gestión de colas y EDA.",
+          urlImagen: "/imagenes/numeros/numero-2.png",
+        },
+        {
+          nombre: "Sprint 3. JAVA",
+          descripcion:
+            "Programación en Java. Spring Boot y programación por capas. Definición de endpoints. Interacción con bases de datos. Hilos. Autenticación JWT y autorización. Debugging, testing y refractoring. Gestión de archivos. Kafka.",
+          urlImagen: "/imagenes/numeros/numero-3.png",
+        },
+        {
+          nombre: "Coaching Laboral",
+          descripcion:
+            "Personalidad y valores. Competencias para el empleo. Curriculum Vitae. Vídeo CV y LinkedIn. Preparación entrevista.",
+          urlImagen: "/imagenes/numeros/numero--.png",
+        },
+      ],
+      tecnologias: [
+        {
+          nombre: "JAVA",
+          urlIcono: "/imagenes/tecnologias/java.png",
+        },
+        {
+          nombre: "MYSQL",
+          urlIcono: "/imagenes/tecnologias/mysql.png",
+        },
+        {
+          nombre: "SPRINGBOOT",
+          urlIcono: "/imagenes/tecnologias/springboot.png",
+        },
+        {
+          nombre: "JPA",
+          urlIcono: "/imagenes/tecnologias/jpa.png",
+        },
+        {
+          nombre: "DOCKER",
+          urlIcono: "/imagenes/tecnologias/docker.png",
+        },
+        {
+          nombre: "JWT",
+          urlIcono: "/imagenes/tecnologias/jwt.svg",
+        },
+      ],
+      proyectos: {
+        introduccion:
+          "Durante este bootcamp han sido diversos los ejercicios realizados durante cada módulo. Con el objetivo de recopilar conocimientos e incorporar diferentes funcionalidades en aplicaciones más complejas se exponen los siguientes proyectos.",
+        listado: [
+          {
+            nombre: "Car Registry",
+            descripcion:
+              "Pequeña API-Rest que simula un concesionario de coches y marcas, codificada de forma incremental con Spring Boot, incorpora interacción con bases de datos, autenticación JWT, subida/descarga de ficheros, testing y documetación de los endpoints con Swagger, etc.",
+            enlace: "https://github.com/sauliyo15/carregistry",
+            urlImagen: "/imagenes/carregistry.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Prácticas JAVA",
+            descripcion:
+              "Enlace de GitHub, donde se muestran los diferentes repositorios de los ejercicios realizados durante el Bootcamp",
+            enlace: "https://github.com/stars/sauliyo15/lists/bootcamp-java-backend",
+            urlImagen: "/imagenes/github.png",
+            target_blank: true,
+          },
+        ],
+      },
+    },
+    {
       id: "android",
       nombre: "Android",
       descripcion: "Programación de aplicaciones móviles",
@@ -659,12 +753,12 @@ export const datos = {
         },
         {
           nombre: "Descargas",
-          valor: "10K+ descargas",
+          valor: "20K+ descargas",
           urlIcono: "/imagenes/download.png"
         },
         {
           nombre: "Seguidores instagram",
-          valor: "+4.000 seguidores",
+          valor: "+5.000 seguidores",
           urlIcono: "/imagenes/seguidor.png"
         }
       ],
@@ -750,6 +844,22 @@ export const datos = {
               "Una aplicación de escritorio en Java centraliza la gestión de toda la información, ofreciendo una solución eficiente y versátil.",
             enlace: "/imagenes/nvde_escritorio.PNG",
             urlImagen: "/imagenes/pc.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Dashboard en React",
+            descripcion:
+              "Una aplicación web desarrollada en React y alojada en Firebase, que permite con un diseño responsive la gestión de toda la información desde cualquier tipo de dispositivo.",
+            enlace: "/imagenes/nvde_react.png",
+            urlImagen: "/imagenes/react.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Arquitectura del Proyecto",
+            descripcion:
+              "En la siguiente imagen se muestran todos los componentes de la arquitectura software del proyecto.",
+            enlace: "/imagenes/nvde_arquitectura.png",
+            urlImagen: "/imagenes/arquitectura.png",
             target_blank: true,
           },
           {
@@ -893,9 +1003,9 @@ export const datos = {
     },
     {
       nombre: "LinkedIn",
-      descripcion: "https://www.linkedin.com/in/sauliyo15/",
+      descripcion: "https://www.linkedin.com/in/saulgarciacalvo/",
       urlImagen: "/imagenes/linkedin.webp",
-      enlace: "https://www.linkedin.com/in/sauliyo15/",
+      enlace: "https://www.linkedin.com/in/saulgarciacalvo/",
       target_blank: true,
     },
     {
