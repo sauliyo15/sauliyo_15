@@ -850,7 +850,7 @@ export const datos = {
             nombre: "Dashboard en React",
             descripcion:
               "Una aplicación web desarrollada en React y alojada en Firebase, que permite con un diseño responsive la gestión de toda la información desde cualquier tipo de dispositivo.",
-            enlace: "/imagenes/nvde_react.png",
+            enlace: "/imagenes/nvde_react.PNG",
             urlImagen: "/imagenes/react.png",
             target_blank: true,
           },
