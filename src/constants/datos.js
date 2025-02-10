@@ -748,12 +748,12 @@ export const datos = {
       puntuaciones: [
         {
           nombre: "Puntuacion Play Store",
-          valor: "4.8",
+          valor: "4.7",
           urlIcono: "/imagenes/star.png"
         },
         {
           nombre: "Descargas",
-          valor: "20K+ descargas",
+          valor: "50K+ descargas",
           urlIcono: "/imagenes/download.png"
         },
         {
@@ -772,8 +772,8 @@ export const datos = {
           urlIcono: "/imagenes/tecnologias/postgresql.png",
         },
         {
-          nombre: "AWS",
-          urlIcono: "/imagenes/tecnologias/aws.png",
+          nombre: "SUPABASE",
+          urlIcono: "/imagenes/tecnologias/supabase.png",
         },
         {
           nombre: "ADMOB",
@@ -833,8 +833,8 @@ export const datos = {
           {
             nombre: "Base de Datos",
             descripcion:
-              "La base de datos, alojada en AWS, utiliza PostgreSQL, con varias tablas para organizar eficientemente los datos cifrados, garantizando la seguridad y confidencialidad.",
-            enlace: "https://aws.amazon.com/es/rds/",
+              "La base de datos, alojada en Supabase, utiliza PostgreSQL, con varias tablas para organizar eficientemente los datos cifrados, garantizando la seguridad y confidencialidad.",
+            enlace: "https://supabase.com/",
             urlImagen: "/imagenes/tecnologias/postgresql.png",
             target_blank: true,
           },
@@ -868,14 +868,6 @@ export const datos = {
               "Esenciales para promocionar apps y comunicar novedades. Las redes sociales son fundamentales para mantener a la audiencia informada sobre nuevas características y contenido.",
             enlace: "https://www.instagram.com/nosvamosdeencierro/",
             urlImagen: "/imagenes/instagram.png",
-            target_blank: true,
-          },
-          {
-            nombre: "Próximos pasos",
-            descripcion:
-              "Análisis y traslado del sistema de alojamiento de la base de datos hacia la plataforma de hospedaje ofrecida por Heroku.",
-            enlace: "https://devcenter.heroku.com/articles/heroku-postgresql",
-            urlImagen: "/imagenes/proximo.png",
             target_blank: true,
           },
         ],
