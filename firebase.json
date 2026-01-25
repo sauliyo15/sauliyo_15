@@ -1,11 +1,17 @@
 {
   "hosting": {
-    "site": "sauliyo15",
     "public": "build",
+    "site":"sauliyo15",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
