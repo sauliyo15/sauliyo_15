@@ -51,7 +51,8 @@ export const datos = {
         {
           titulo: "Trabajo Fin de Grado",
           nombre: "Sistema de Gestión de Pedidos",
-          descripcion: "Desarrollo de una aplicación de escritorio en Java para la gestión integral de pedidos en una empresa de transporte, con una base de datos PostgreSQL integrada. Además, se complementa con una aplicación Android diseñada para que los repartidores accedan y completen sus asignaciones de entregas de manera eficaz y organizada.",
+          descripcion:
+            "Desarrollo de una aplicación de escritorio en Java para la gestión integral de pedidos en una empresa de transporte, con una base de datos PostgreSQL integrada. Además, se complementa con una aplicación Android diseñada para que los repartidores accedan y completen sus asignaciones de entregas de manera eficaz y organizada.",
           urlImagen: "/imagenes/tfg.png",
           tecnologias: [
             {
@@ -64,7 +65,7 @@ export const datos = {
             },
             {
               nombre: "POSTGRESQL",
-              urlIcono: "/imagenes/tecnologias/postgresql.png"
+              urlIcono: "/imagenes/tecnologias/postgresql.png",
             },
             {
               nombre: "SQLITE",
@@ -72,16 +73,17 @@ export const datos = {
             },
             {
               nombre: "ANDROID",
-              urlIcono: "/imagenes/android.png"
-            }
+              urlIcono: "/imagenes/android.png",
+            },
           ],
-        }
+        },
       ],
       practicas: [
         {
           titulo: "Prácticas en Empresa",
           nombre: "Mercedes Benz España S.A.",
-          descripcion: "Desarrollo de un proyecto para el tratamiento automático de datos y la visualización de resultados, basado en la codificación de macros en Visual Basic for Applications (VBA) en Microsoft Access y Excel. El sistema recopila datos de diversas fuentes, filtra los datos no válidos y brinda al usuario la opción de visualizarlos en informes y/o gráficos.",
+          descripcion:
+            "Desarrollo de un proyecto para el tratamiento automático de datos y la visualización de resultados, basado en la codificación de macros en Visual Basic for Applications (VBA) en Microsoft Access y Excel. El sistema recopila datos de diversas fuentes, filtra los datos no válidos y brinda al usuario la opción de visualizarlos en informes y/o gráficos.",
           urlImagen: "/imagenes/mercedesbenz.png",
           tecnologias: [
             {
@@ -105,8 +107,8 @@ export const datos = {
               urlIcono: "/imagenes/tecnologias/bat.png",
             },
           ],
-        }
-      ]
+        },
+      ],
     },
     {
       id: "bootcampjava",
@@ -195,7 +197,8 @@ export const datos = {
             nombre: "Prácticas JAVA",
             descripcion:
               "Enlace de GitHub, donde se muestran los diferentes repositorios de los ejercicios realizados durante el Bootcamp",
-            enlace: "https://github.com/stars/sauliyo15/lists/bootcamp-java-backend",
+            enlace:
+              "https://github.com/stars/sauliyo15/lists/bootcamp-java-backend",
             urlImagen: "/imagenes/github.png",
             target_blank: true,
           },
@@ -253,7 +256,8 @@ export const datos = {
             nombre: "Little Space 2",
             descripcion:
               "Un juego clásico de arcade ambientado en el espacio, donde controlas una nave. Incluye la función de almacenamiento local para mostrar las diez mejores puntuaciones.",
-            enlace: "https://play.google.com/store/apps/details?id=saul.littlespace2&hl=es_419&gl=US",
+            enlace:
+              "https://play.google.com/store/apps/details?id=saul.littlespace2&hl=es_419&gl=US",
             urlImagen: "/imagenes/littlespace.webp",
             target_blank: true,
           },
@@ -699,7 +703,8 @@ export const datos = {
     {
       id: "python",
       nombre: "Python",
-      descripcion: "Programación en Python para la arquitectura y la ingeniería",
+      descripcion:
+        "Programación en Python para la arquitectura y la ingeniería",
       descripcionLarga:
         "En el desarrollo web con Python, los desarrolladores utilizan este lenguaje de programación para construir aplicaciones web robustas y escalables. Python es conocido por su sintaxis sencilla y legibilidad, lo que facilita el desarrollo rápido. Frameworks como Django y Flask permiten crear sitios web dinámicos y de alto rendimiento, gestionando eficientemente la lógica de negocio y la interacción con bases de datos, mientras que la comunidad activa de Python ofrece un amplio soporte y recursos.",
       edicion: "1ª Edición - 2023",
@@ -718,7 +723,7 @@ export const datos = {
         "Programación orientada a objetos",
         "Módulos, aspectos, y bibliotecas",
         "Documentación y pruebas",
-        "Herramientas de Python para la vida profesional y acádemica"
+        "Herramientas de Python para la vida profesional y acádemica",
       ],
       tecnologias: [
         {
@@ -749,18 +754,18 @@ export const datos = {
         {
           nombre: "Puntuacion Play Store",
           valor: "4.7",
-          urlIcono: "/imagenes/star.png"
+          urlIcono: "/imagenes/star.png",
         },
         {
           nombre: "Descargas",
           valor: "50K+ descargas",
-          urlIcono: "/imagenes/download.png"
+          urlIcono: "/imagenes/download.png",
         },
         {
           nombre: "Seguidores instagram",
           valor: "+5.000 seguidores",
-          urlIcono: "/imagenes/seguidor.png"
-        }
+          urlIcono: "/imagenes/seguidor.png",
+        },
       ],
       tecnologias: [
         {
@@ -802,7 +807,8 @@ export const datos = {
             nombre: "Nos Vamos De Encierro",
             descripcion:
               "Núcleo esencial del proyecto, está desarrollada en Java y se monetizada con AdMob. Incorpora varios SDKs, incluyendo OneSignal y Firebase, para potenciar su funcionalidad.",
-            enlace: "https://play.google.com/store/apps/details?id=saul.agendatoros&hl=es_CL",
+            enlace:
+              "https://play.google.com/store/apps/details?id=saul.agendatoros&hl=es_CL",
             urlImagen: "/imagenes/nvde.jpg",
             target_blank: true,
           },
@@ -810,7 +816,8 @@ export const datos = {
             nombre: "Toreando",
             descripcion:
               "Aplicación secundaria del proyecto, con un propósito similar, desarrollada bajo las mismas directrices que la aplicación principal y también con monetización a través de AdMob.",
-            enlace: "https://play.google.com/store/apps/details?id=saul.toreando&hl=es_GT",
+            enlace:
+              "https://play.google.com/store/apps/details?id=saul.toreando&hl=es_GT",
             urlImagen: "/imagenes/toreando.webp",
             target_blank: true,
           },
@@ -818,7 +825,120 @@ export const datos = {
             nombre: "Version Premium (Android) y app para iOS",
             descripcion:
               "Desarrollada en JavaScript con React Native, esta versión de pago ofrece funciones exclusivas premium para una experiencia de usuario mejorada en ambas plataformas.",
-            enlace: "https://apps.apple.com/us/app/nos-vamos-de-encierro/id6496282440",
+            enlace:
+              "https://apps.apple.com/us/app/nos-vamos-de-encierro/id6496282440",
+            urlImagen: "/imagenes/premium.png",
+            target_blank: true,
+          },
+          {
+            nombre: "API",
+            descripcion:
+              "Codificada en Express procesa solicitudes de datos para las aplicaciones. Desplegada en Vercel para eficiencia y confiabilidad.",
+            enlace: "https://nosvamosdeencierro.glitch.me/",
+            urlImagen: "/imagenes/tecnologias/api.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Base de Datos",
+            descripcion:
+              "La base de datos, alojada en Supabase, utiliza PostgreSQL, con varias tablas para organizar eficientemente los datos cifrados, garantizando la seguridad y confidencialidad.",
+            enlace: "https://supabase.com/",
+            urlImagen: "/imagenes/tecnologias/postgresql.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Aplicación de Escritorio",
+            descripcion:
+              "Una aplicación de escritorio en Java centraliza la gestión de toda la información, ofreciendo una solución eficiente y versátil.",
+            enlace: "/imagenes/nvde_escritorio.PNG",
+            urlImagen: "/imagenes/pc.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Dashboard en React",
+            descripcion:
+              "Una aplicación web desarrollada en React y alojada en Firebase, que permite con un diseño responsive la gestión de toda la información desde cualquier tipo de dispositivo.",
+            enlace: "/imagenes/nvde_react.PNG",
+            urlImagen: "/imagenes/react.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Arquitectura del Proyecto",
+            descripcion:
+              "En la siguiente imagen se muestran todos los componentes de la arquitectura software del proyecto.",
+            enlace: "/imagenes/nvde_arquitectura.png",
+            urlImagen: "/imagenes/arquitectura.png",
+            target_blank: true,
+          },
+          {
+            nombre: "Redes Sociales",
+            descripcion:
+              "Esenciales para promocionar apps y comunicar novedades. Las redes sociales son fundamentales para mantener a la audiencia informada sobre nuevas características y contenido.",
+            enlace: "https://www.instagram.com/nosvamosdeencierro/",
+            urlImagen: "/imagenes/instagram.png",
+            target_blank: true,
+          },
+        ],
+      },
+    },
+    {
+      id: "asamble",
+      nombre: "Asamble",
+      descripcion:
+        "Aplicación para compartir información y opiniones en diferentes tipos de colectivos.",
+      descripcionLarga:
+        "El proyecto Nos Vamos De Encierro surge de una idea personal que fusiona mi afición por los festejos taurinos con mi experiencia en programación y el gusto por el desarrollo de aplicaciones móviles. La ampliación constante de funcionalidad y contenido  y la difusión a través de la redes sociales han llegado a convertir estas aplicaciones en referentes nacionales.",
+      urlImagen: "/imagenes/asamble.png",
+      enlace: "/proyectos/asamble",
+      
+      tecnologias: [
+        
+        {
+          nombre: "POSTGRESQL",
+          urlIcono: "/imagenes/tecnologias/postgresql.png",
+        },
+        {
+          nombre: "SUPABASE",
+          urlIcono: "/imagenes/tecnologias/supabase.png",
+        },
+        
+        
+        {
+          nombre: "FIREBASE",
+          urlIcono: "/imagenes/tecnologias/firebase.webp",
+        },
+        
+        {
+          nombre: "NODEJS",
+          urlIcono: "/imagenes/tecnologias/nodejs.png",
+        },
+      ],
+      componentes: {
+        listado: [
+          {
+            nombre: "Nos Vamos De Encierro",
+            descripcion:
+              "Núcleo esencial del proyecto, está desarrollada en Java y se monetizada con AdMob. Incorpora varios SDKs, incluyendo OneSignal y Firebase, para potenciar su funcionalidad.",
+            enlace:
+              "https://play.google.com/store/apps/details?id=saul.agendatoros&hl=es_CL",
+            urlImagen: "/imagenes/nvde.jpg",
+            target_blank: true,
+          },
+          {
+            nombre: "Toreando",
+            descripcion:
+              "Aplicación secundaria del proyecto, con un propósito similar, desarrollada bajo las mismas directrices que la aplicación principal y también con monetización a través de AdMob.",
+            enlace:
+              "https://play.google.com/store/apps/details?id=saul.toreando&hl=es_GT",
+            urlImagen: "/imagenes/toreando.webp",
+            target_blank: true,
+          },
+          {
+            nombre: "Version Premium (Android) y app para iOS",
+            descripcion:
+              "Desarrollada en JavaScript con React Native, esta versión de pago ofrece funciones exclusivas premium para una experiencia de usuario mejorada en ambas plataformas.",
+            enlace:
+              "https://apps.apple.com/us/app/nos-vamos-de-encierro/id6496282440",
             urlImagen: "/imagenes/premium.png",
             target_blank: true,
           },
@@ -885,74 +1005,79 @@ export const datos = {
         {
           nombre: "Puntuacion Play Store",
           valor: "3.3",
-          urlIcono: "/imagenes/star.png"
+          urlIcono: "/imagenes/star.png",
         },
         {
           nombre: "Descargas",
           valor: "50K+ Descargas",
-          urlIcono: "/imagenes/download.png"
-        }
+          urlIcono: "/imagenes/download.png",
+        },
       ],
       tecnologias: [
         {
           nombre: "ANDROIDSTUDIO",
-          urlIcono: "/imagenes/tecnologias/androidstudio.png"
+          urlIcono: "/imagenes/tecnologias/androidstudio.png",
         },
         {
           nombre: "JAVA",
-          urlIcono: "/imagenes/tecnologias/java.png"
+          urlIcono: "/imagenes/tecnologias/java.png",
         },
         {
           nombre: "PLAYSTORE",
-          urlIcono: "/imagenes/playstore.png"
+          urlIcono: "/imagenes/playstore.png",
         },
         {
           nombre: "ADMOB",
-          urlIcono: "/imagenes/tecnologias/admob.png"
+          urlIcono: "/imagenes/tecnologias/admob.png",
         },
         {
           nombre: "FIREBASE",
-          urlIcono: "/imagenes/tecnologias/firebase.webp"
+          urlIcono: "/imagenes/tecnologias/firebase.webp",
         },
         {
           nombre: "ONESIGNAL",
           urlIcono: "/imagenes/tecnologias/onesignal.png",
-        }
+        },
       ],
       componentes: {
         listado: [
           {
             nombre: "Aplicación Android",
-            descripcion: "Desarrollada en Java y se monetiza con Admob. Integra varios SDKs, incluyendo OneSignal para el envío de notificaciones a los usuarios.",
-            enlace: "https://play.google.com/store/apps/details?id=saul.dni&hl=es&gl=US",
+            descripcion:
+              "Desarrollada en Java y se monetiza con Admob. Integra varios SDKs, incluyendo OneSignal para el envío de notificaciones a los usuarios.",
+            enlace:
+              "https://play.google.com/store/apps/details?id=saul.dni&hl=es&gl=US",
             urlImagen: "/imagenes/android.png",
-            target_blank: true
+            target_blank: true,
           },
           {
             nombre: "Base de Datos",
-            descripcion: "Se utiliza SQLite se utiliza y almacena internamente en el dispositivo móvil para gestionar y organizar datos de la aplicación de manera eficiente y localizada.",
+            descripcion:
+              "Se utiliza SQLite se utiliza y almacena internamente en el dispositivo móvil para gestionar y organizar datos de la aplicación de manera eficiente y localizada.",
             enlace: "",
             urlImagen: "/imagenes/tecnologias/sqlite.png",
-            target_blank: true
-          }
-        ]
-      }
+            target_blank: true,
+          },
+        ],
+      },
     },
     {
       id: "eltiempo",
       nombre: "El Tiempo",
-      descripcion: "Codificada en React y Bootstrap, utilizando datos de OpenWeatherMap para pronósticos meteorológicos",
+      descripcion:
+        "Codificada en React y Bootstrap, utilizando datos de OpenWeatherMap para pronósticos meteorológicos",
       urlImagen: "/imagenes/eltiempo.png",
       enlace: "https://eltiempo.glitch.me/",
-      target_blank: true
+      target_blank: true,
     },
     {
       id: "juegos2023",
       nombre: "Juegos 2023",
-      descripcion: "Versión mejorada del proyecto final del curso Fullstack, con imágenes y funciones adicionales.",
+      descripcion:
+        "Versión mejorada del proyecto final del curso Fullstack, con imágenes y funciones adicionales.",
       urlImagen: "/imagenes/juegos2023.png",
       enlace: "https://sauliyo15juegosfullstack.glitch.me/",
-      target_blank: true
+      target_blank: true,
     },
     {
       id: "paginagoogleplay",
