@@ -12,16 +12,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: "Checkout repository"
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: "Setup Node.js"
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: npm
 
-      - name: Install dependencies
+      - name: "Install dependencies"
         run: |
           if [ -f package-lock.json ]; then
             npm ci
@@ -29,20 +29,39 @@ jobs:
             npm install
           fi
 
-      - name: Build project
+      - name: "Build project"
         run: npm run build
 
-      - name: Decode Google Credentials
+      # Decodifica el JSON de la Service Account (guardado en Base64 en el Secret)
+      - name: "Decode Google Credentials"
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
         run: |
-          echo "${GOOGLE_APPLICATION_CREDENTIALS}" | base64 -d > $HOME/gcloud-key.json
+          # Eliminamos posibles saltos de línea y decodificamos a un archivo
+          echo "${GOOGLE_APPLICATION_CREDENTIALS}" | tr -d '\n' | base64 --decode > "$HOME/gcloud-key.json"
+          # Ajustamos permisos mínimos
+          chmod 600 "$HOME/gcloud-key.json"
 
-      - name: Install Firebase CLI
+      # (Opcional) Verificación segura del archivo decodificado.
+      # Te ayuda a diagnosticar si la autenticación falla sin exponer la private_key.
+      - name: "Check decoded credentials file (safe)"
+        run: |
+          if [ ! -s "$HOME/gcloud-key.json" ]; then
+            echo "❌ Credentials file is missing or empty at $HOME/gcloud-key.json"
+            exit 1
+          fi
+          echo "✅ Credentials file created."
+          echo "Path: $HOME/gcloud-key.json"
+          echo "Size (bytes): $(wc -c < "$HOME/gcloud-key.json")"
+          # Imprime sólo las primeras líneas (no incluye private_key)
+          head -n 5 "$HOME/gcloud-key.json"
+
+      - name: "Install Firebase CLI"
         run: npm install -g firebase-tools
 
-      - name: Deploy to Firebase Hosting
+      - name: "Deploy to Firebase Hosting (site: sauliyo15)"
         env:
+          # Esta variable hace que firebase-tools use la Service Account JSON
           GOOGLE_APPLICATION_CREDENTIALS: $HOME/gcloud-key.json
         run: |
           firebase deploy --only hosting:sauliyo15 --project sauliyo15-63895
